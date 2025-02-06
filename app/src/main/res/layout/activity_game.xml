@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#121212">
+
+    <TextView
+        android:id="@+id/questionText"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/truth_or_dare"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/truthButton"
+        android:background="@drawable/rounded_button"
+        style="@style/ButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/truth"/>
+
+    <Button
+        android:id="@+id/dareButton"
+        android:background="@drawable/rounded_button"
+        style="@style/ButtonStyle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/dare"/>
+
+</LinearLayout>

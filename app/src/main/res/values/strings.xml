@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TruthOrDare</string>
+        <string name="question_text">Truth or Dare?</string>
+        <string name="truth_button">Truth</string>
+        <string name="dare_button">Dare</string>
+    <string name="truth_or_dare">Truth or Dare?</string>
+    <string name="truth">Truth</string>
+    <string name="dare">Dare</string>
 </resources>

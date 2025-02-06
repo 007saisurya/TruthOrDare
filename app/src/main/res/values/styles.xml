@@ -1,0 +1,32 @@
+<resources>
+
+
+    <!-- 2️⃣ Global Button Style -->
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/rounded_button</item>  <!-- Uses a drawable for a rounded button -->
+        <item name="android:textColor">#FFFFFF</item>      <!-- Button Text Color -->
+        <item name="android:padding">12dp</item>          <!-- Padding inside the button -->
+        <item name="android:textSize">18sp</item>         <!-- Font size -->
+        <item name="android:layout_margin">8dp</item>     <!-- Space around the button -->
+        <!-- Custom Font -->
+    </style>
+
+    <!-- 3️⃣ Global TextView Style -->
+    <style name="TextViewStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+
+    <!-- 4️⃣ Special Rounded Button Style -->
+    <style name="RoundedButtonStyle">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">8dp</item>
+
+    </style>
+
+</resources>
